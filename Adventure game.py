@@ -3,7 +3,7 @@ import time as ti
 
 monster_list = ["chimera", "skeleton", "zombie", "dragon", "hydra", "slime", "ghost", "ghoul", "basilisk", "cyclops", "gorgon", "griffin", "minotaur", "sphinx", "banshee", "bonless", "wraith", "lich", "mummy", "necromanser", "vampire", "wyvern", "Oblex", "beholder", "manticore", "cockatrice", "werewolf", "giant", "goblin", "orc", "troll", "ogre"]
 vendor_list = ["Josh", "Robert", "William", "Jones", "Dan", "Mathew"]
-demihuman_vendors = ["Caelynn", "Liriath", "Aelarion", "Krushk", "Grommash"]
+anthrohuman_vendors = ["Caelynn", "Liriath", "Aelarion", "Krushk", "Grommash"]
 quest_list = ["Defeat a horde of Slimes", "Kill a dragon", "Help Thornfell fight off three Wyverns", "Find a basilisk near Whisperwood", "Escort the princess of Gohmashi to Thornfell", "Find a lost Griffin", "Help a sorceror with a necromanser problem", "Banish a banshee from the edge of the WrithingForests", "Help hide an innocent werewolf", "Fight a manticore"]
 classes_list = ["Barbarian", "Fighter", "Monk", "Rogue", "Bard", "Cleric", "Druid", "Wizard", "Warlock", "Paladin", "Ranger"]
 species_list = ["Human", "Dragonborne", "Dwarf", "Elf (Dark, Wood, High)", "Halfling", "Half-elf"]
@@ -13,8 +13,8 @@ def monsters():
 def human_vendors():
     regular = rand.choice(vendor_list)
     return regular.lower
-def demi_vendors():
-    demi = rand.choice(demihuman_vendors)
+def anthro_vendors():
+    demi = rand.choice(anthrohuman_vendors)
     return demi.lower
 def bounties():
     quests = rand.choice(quest_list)
