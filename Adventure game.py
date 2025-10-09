@@ -1,5 +1,5 @@
-import random
-import time
+import random as rand
+import time as ti
 
 monster_list = ["chimera", "skeleton", "zombie", "dragon", "hydra", "slime", "ghost", "ghoul", "basilisk", "cyclops", "gorgon", "griffin", "minotaur", "sphinx", "banshee", "bonless", "wraith", "lich", "mummy", "necromanser", "vampire", "wyvern", "Oblex", "beholder", "manticore", "cockatrice", "werewolf", "giant", "goblin", "orc", "troll", "ogre"]
 vendor_list = ["Josh", "Robert", "William", "Jones", "Dan", "Mathew"]
@@ -8,16 +8,16 @@ quest_list = ["Defeat a horde of Slimes", "Kill a dragon", "Help Thornfell fight
 classes_list = ["Barbarian", "Fighter", "Monk", "Rogue", "Bard", "Cleric", "Druid", "Wizard", "Warlock", "Paladin", "Ranger"]
 species_list = ["Human", "Dragonborne", "Dwarf", "Elf (Dark, Wood, High)", "Halfling", "Half-elf"]
 def monsters():
-    mononster = random.choice(monster_list)
+    mononster = rando.choice(monster_list)
     return mononster.lower
 def human_vendors():
-    regular = random.choice(vendor_list)
+    regular = rand.choice(vendor_list)
     return regular.lower
 def demi_vendors():
-    demi = random.choice(demihuman_vendors)
+    demi = rand.choice(demihuman_vendors)
     return demi.lower
 def bounties():
-    quests = random.choice(quest_list)
+    quests = rand.choice(quest_list)
     return quests.lower
 item_0 = quest_list[0]
 item_1 = quest_list[1]
@@ -31,7 +31,7 @@ item_8 = quest_list[8]
 item_9 = quest_list[9]
 
 def powers():
-    classes = random.choice(classes_list)
+    classes = rand.choice(classes_list)
     return classes.lower
 class_0 = classes_list[0]
 class_1 = classes_list[1]
@@ -46,7 +46,7 @@ class_9 = classes_list[9]
 class_10 = classes_list[10]
 
 def species():
-    race = random.choice(species_list)
+    race = rand.choice(species_list)
     return race.lower
 race_0 = species_list[0]
 race_1 = species_list[1]
@@ -59,17 +59,17 @@ race_5 = species_list[5]
 
 def play_game(mononster, regular, demi, quests, classes):
     print("Make sure to captialize the beginning letter of you answers.")
-    time.sleep(3)
+    ti.sleep(3)
     play = input("Welcome to my game would you like to play? (Y/N)")
     if play == "Y":
         print("Welcome the world of fantasy beings, I will give you a run down of what's happening.")
-        time.sleep(4)
+        ti.sleep(4)
         user = input("What do you want your name to be, (It can be anything)")
-        time.sleep(2)
+        ti.sleep(2)
         ask_now = input("Do you want to know the classes you can choose from and what they are or are you good? (Y/N)")
         if ask_now != "N":
             while True:
-                time.sleep(2)
+                ti.sleep(2)
                 whhich = input(f"What class do you want to know more about? {class_0}, {class_1}, {class_2}, {class_3}, {class_4}, {class_5}, {class_6}, {class_7}, {class_8}, {class_9}, {class_10}")
                 if whhich == "Barbarian":
                     print("A fierce warrior who channels primal fury, the Barbarian enters a state of rage to shrug off attacks and deal devastating blows. The source of a Barbarian's rage can be anything from inner animal spirits to ancient, wild magic.")
@@ -95,18 +95,18 @@ def play_game(mononster, regular, demi, quests, classes):
                     print("A warrior with a deep connection to nature, the Ranger is a versatile martial class focused on survival and combat.")
                 else:
                     print("Not a valid answer!")
-                time.sleep(3)
+                ti.sleep(3)
                 repep = input("Would you like to know another class? (Y/N)")
                 if repep != "Y":
                     break
         
         classs = input(f"What is your class? {class_0}, {class_1}, {class_2}, {class_3}, {class_4}, {class_5}, {class_6}, {class_7}, {class_8}, {class_9}, {class_10}.")
         print("You are a" , classs)
-        time.sleep(4)
+        ti.sleep(4)
         ranc = input("Do you want to know the races in the land of Ismira? (Y/N)")
         if ranc != "N":
             while True:
-                time.sleep(3)
+                ti.sleep(3)
                 whoch_one = input(f"What race would you like to know more about? {race_0}, {race_1}, {race_2,}, {race_3},(only have to put Elf for more info about elves) {race_4}, {race_5}(Make sure to put Half-Elf)")
                 if whoch_one == "Human":
                     print("The most adaptable and versatile of all species. Though they have no special attributes, they can fit any character class and archetype.")
@@ -122,37 +122,37 @@ def play_game(mononster, regular, demi, quests, classes):
                     print("Individuals who have human and elf parentage. They receive the benefits of both lineages, including Darkvision and versatility.")
                 else:
                     print("Not a valid answer!")
-                time.sleep(3)
+                ti.sleep(3)
                 repeat = input("Do you want to see another? (Y/N)")
                 if repeat != "Y":
                     break
         
         raaace = input(f"What is your species? {race_0}, {race_1}, {race_2}, {race_3}, {race_4}, {race_5}?")
         print("You are a," ,raaace)
-        time.sleep(2)
+        ti.sleep(2)
         story = input("Would you like to read the story about the world you're in (Y/N)")
         if story == "Y":
             print("The story starts of with the creation, many monsters and humans alike were borne from many different ways, though nobody knows how it came to be there are only guesses.\nThere are many villages around the land known as Ismeria.\nSome places in Ismeria is Aethelgard. Whisperwoods. Thornfell. And much more.\n its up to you" ,user, "to go where you want to.")
-            time.sleep(8)
+            ti.sleep(8)
             choice_first = input("Where do you want to go? (Thornfell, Aethelgard?)")
             if choice_first  == "Aethelgard":
-                time.sleep(4)
+                ti.sleep(4)
                 vendors_1 = input("You travel all the way to the bustling city of Aethelgard.\n there are many vendors would you like to go to one? (Y/N)")
-                time.sleep(4)
+                ti.sleep(4)
                 if vendors_1 == "Y":
                     print(f"You go to a vendor their name is {regular()}")
-                    time.sleep(3)
+                    ti.sleep(3)
                     coins = input("They're selling a sword, map and quill, the sword is fifteen coins, the map and quills is twenty coins, you have 250 coins, what do you want to buy? (Sword/ Map and Quill)")
-                    time.sleep(4)
+                    ti.sleep(4)
                     if coins == "Sword":
                         result_1 = 250-15
                         print("You now have" , result_1, "coins")
-                        time.sleep(3)
+                        ti.sleep(3)
                         now_what = input("Do you also want to buy the map and quill or go to the guild? (Map and Quill/Guild)")
                         if now_what == "Map and Quill":
                             result_3 = 235-20
                             print("You now have" ,result_3, "coins and you go to the guild afterwards.")
-                            time.sleep(3)
+                            ti.sleep(3)
                             chooseee = input(f"There are three quests you see once you get to the guild, {item_0}, {item_7}, {item_4} (1,2,3)")
                             if chooseee == "1":
                                 print("You go to the guild master and he lets you take on the quest. (Defeat a horde of Slimes) \n good luck kid, you're going to need it.Slimes are a tricky bunch. Hope you're ready for them.")
@@ -863,7 +863,7 @@ def play_game(mononster, regular, demi, quests, classes):
                     elif coins == "Map and Quill":
                         result_2 = 250-20
                         print("You bought the map and quill! You now have" , result_2, "coins")
-                        time.sleep(2)
+                        ti.sleep(2)
                         bought = input("You have" , result_2, "coins, would you like to buy the sword as well or no? (Y/N)")
                         if bought == "Y":
                             result_alt = 230-15
@@ -938,7 +938,7 @@ def play_game(mononster, regular, demi, quests, classes):
                 print("Not a valid answer")
         elif story == "N":
             print("All Good!")
-            time.sleep(1)
+            ti.sleep(1)
             choice_first_alt = input("Where do you want to go? (Cave/Forest)")
             if choice_first_alt == "Cave":
                 print("You travel to a cave, only with a sword and map and quill, on the map shows different places like, Aethelgard, Thornfell, and Whisperwoods which is nearby.")
@@ -970,7 +970,7 @@ def play_game(mononster, regular, demi, quests, classes):
         else:
             print("Not a valid answer!")
     elif play == "N":
-        print("That's to bad, let's play another time.")
+        print("That's to bad, let's play another ti.")
 
     else:
         print("That's not a valid answer! Try again!")
