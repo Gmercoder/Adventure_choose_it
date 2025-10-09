@@ -990,7 +990,7 @@ def play_game(mononster, regular, demi, quests, classes):
 def main():
     mononster = monsters()
     regular = human_vendors()
-    demi = demi_vendors()
+    demi = anthro_vendors()
     quests = bounties()
     classes = powers()
     play_game(mononster, regular, demi, quests, classes)
