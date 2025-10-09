@@ -8,7 +8,7 @@ quest_list = ["Defeat a horde of Slimes", "Kill a dragon", "Help Thornfell fight
 classes_list = ["Barbarian", "Fighter", "Monk", "Rogue", "Bard", "Cleric", "Druid", "Wizard", "Warlock", "Paladin", "Ranger"]
 species_list = ["Human", "Dragonborne", "Dwarf", "Elf (Dark, Wood, High)", "Halfling", "Half-elf"]
 def monsters():
-    mononster = rando.choice(monster_list)
+    mononster = rand.choice(monster_list)
     return mononster.lower
 def human_vendors():
     regular = rand.choice(vendor_list)
