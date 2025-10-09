@@ -648,8 +648,8 @@ def play_game(mononster, regular, demi, quests, classes):
                                         ssoo = input("You walk around (Go to Jonshu/Vendor)")
                                         if ssoo == "Vendor":
                                             if classs == "Barbarian":
-                                            print("You walk up to a vendor selling an axe; 25 coins, a spear; 30 coins, and a dagger; 15 coins")
-                                            bar = input("What do you want to buy? (Axe/Spear/Dagger) (You can only choose 1)")
+                                                print("You walk up to a vendor selling an axe; 25 coins, a spear; 30 coins, and a dagger; 15 coins")
+                                                bar = input("What do you want to buy? (Axe/Spear/Dagger) (You can only choose 1)")
                                             if bar == "Axe":
                                                 result_4 = result_3-25
                                                 print("You now have" , result_4)
