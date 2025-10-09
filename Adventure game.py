@@ -1,5 +1,6 @@
 import random
 import time
+import math
 
 monster_list = ["chimera", "skeleton", "zombie", "dragon", "hydra", "slime", "ghost", "ghoul", "basilisk", "cyclops", "gorgon", "griffin", "minotaur", "sphinx", "banshee", "bonless", "wraith", "lich", "mummy", "necromanser", "vampire", "wyvern", "Oblex", "beholder", "manticore", "cockatrice", "werewolf", "giant", "goblin", "orc", "troll", "ogre"]
 vendor_list = ["Josh", "Robert", "William", "Jones", "Dan", "Mathew"]
