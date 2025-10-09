@@ -801,6 +801,7 @@ def play_game(mononster, regular, demi, quests, classes):
                                         else:
                                             print("You didn't pick a valid class!")
                                     elif ssoo == "Go to Gonshu":
+                                        print("You leave and go to Gonshu")
                                     elif wwah == "NVM":
                                         print("You leave Aethelgard and go on foot to Jonshu, making it there safely.")
                                     else:
