@@ -12,6 +12,8 @@ class character():
   int sanity
   int health
   int money
+  int experience
+  int level
 
   str name
   str clas
@@ -65,6 +67,7 @@ class player_class():
     str skills
     str classabilities
 
+
 class species():
   class human():
     int skill_bonus
@@ -98,11 +101,72 @@ class species():
   class half_elf():
       int skill_bonus
       int skill_bonus
-      
-class vendor():
   
 class npc():
 
-class enemy():
+class monster():
+  class chimera():
+
+  class skeleton():
+
+  class zombie():
+
+  class dragon():
+
+  class hydra():
+
+  class slime():
+
+  class ghost():
+
+  class ghoul():
+
+  class basilisk():
+
+  class cyclops():
+
+  class gorgon():
+
+  class griffin():
+
+  class minotaur():
+
+  class sphinx():
+
+  class banshee():
+
+  class bonless():
+
+  class wraith():
+
+  class lich():
+
+  class mummy():
+
+  class necromanser():
+
+  class vampire():
+
+  wyvern
+
+  Oblex
+
+  beholder
+
+  manticore
+
+  cockatrice
+
+  werewolf
+
+  giant
+
+  goblin
+
+  orc
+
+  troll
+
+  ogre
 
 class quest():
