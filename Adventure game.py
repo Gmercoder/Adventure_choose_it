@@ -320,7 +320,7 @@ def play_game(mononster, regular, demi, quests, classes):
                                     elif what_doyou_mean == "Walk around":
                                         walk = input("You walk around, what now?(Go, Vendor")
                                         if walk == "Go":
-                                            print("Then yoy leave the gates of ")
+                                            print("Then yoy leave the gates of Aethelgard, going East you see a slime and slash it, nothing out of the ordinary... until you come across the entire horde of slimes!")
                                         elif walk == "Vendor":
                                             print("You see many vendors but only go to the ones specifically for your class.")
                                         if classs == "Barbarian":
@@ -483,6 +483,16 @@ def play_game(mononster, regular, demi, quests, classes):
                                         print("Not a valid answer!")
                                 else:
                                     print("Not a valid answer!")
+                                print("The slimes all see you, turning to you, you see many different colored slimes, ranging from red to green with colors in between.")
+                                slime = input("Do you want to know about the different slimes? (Y/N)")
+                                if slime == "Y":
+                                    print("")
+                                elif slime == "N":
+                                    print("")
+                                else:
+                                    print("Not a valid answer!")
+
+                                
                             elif chooseee == "2":
                                 print("You go to the guild master and he lets you take on the quest. (Banish a banshee from the edge of the WrithingForests) \n A banshee is hard, if you're not a Cleric then you're going to need one.")
                                 skele = input("The cleric is in the next town over in Jonshu, do you want to go to him or do you want to do something else before? (Go/No)")
