@@ -19,3 +19,90 @@ class character():
 
   list weaknesses
   list inventory
+
+class player_class():
+  class barbarian():
+    str skills
+    str classabilities
+  
+  class ranger():
+    str skills
+    str classabilities
+  
+  class fighter():
+    str skills
+    str classabilities
+    
+  class wizard():
+    str skills
+    str classabilities
+  
+  class cleric():
+    str skills
+    str classabilities
+  
+  class paladin():
+    str skills
+    str classabilities
+  
+  class monk():
+    str skills
+    str classabilities
+  
+  class rogue():
+    str skills
+    str classabilities
+  
+  class bard():
+    str skills
+    str classabilities
+  
+  class druid():
+    str skills
+    str classabilities
+  
+  class warlock():
+    str skills
+    str classabilities
+
+class species():
+  class human():
+    int skill_bonus
+    int skill_bonus
+
+  class elf();
+    class dark():
+      int skill_bonus
+      int skill_bonus
+
+    class high():
+      int skill_bonus
+      int skill_bonus
+      
+    class wood():
+      int skill_bonus
+      int skill_bonus
+      
+  class dragonborn():
+      int skill_bonus
+      int skill_bonus
+      
+  class dwarf():
+      int skill_bonus
+      int skill_bonus
+      
+  class halfling():
+      int skill_bonus
+      int skill_bonus
+      
+  class half_elf():
+      int skill_bonus
+      int skill_bonus
+      
+class vendor():
+  
+class npc():
+
+class enemy():
+
+class quest():
