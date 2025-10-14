@@ -320,7 +320,7 @@ def play_game(mononster, regular, demi, quests, classes):
                                     elif what_doyou_mean == "Walk around":
                                         walk = input("You walk around, what now?(Go, Vendor")
                                         if walk == "Go":
-                                            print("")
+                                            print("Then yoy leave the gates of ")
                                         elif walk == "Vendor":
                                             print("You see many vendors but only go to the ones specifically for your class.")
                                         if classs == "Barbarian":
