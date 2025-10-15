@@ -67,7 +67,4 @@ class Player_class():
     str skills
     str classabilities
 
-class npc():
-
-
 class quest():
