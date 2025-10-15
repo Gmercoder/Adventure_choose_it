@@ -67,41 +67,6 @@ class player_class():
     str skills
     str classabilities
 
-
-class species():
-  class human():
-    int skill_bonus
-    int skill_bonus
-
-  class elf();
-    class dark():
-      int skill_bonus
-      int skill_bonus
-
-    class high():
-      int skill_bonus
-      int skill_bonus
-      
-    class wood():
-      int skill_bonus
-      int skill_bonus
-      
-  class dragonborn():
-      int skill_bonus
-      int skill_bonus
-      
-  class dwarf():
-      int skill_bonus
-      int skill_bonus
-      
-  class halfling():
-      int skill_bonus
-      int skill_bonus
-      
-  class half_elf():
-      int skill_bonus
-      int skill_bonus
-  
 class npc():
 
 
