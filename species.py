@@ -12,15 +12,15 @@ class Dwarf():
 
 class Elf():
 
-  class high():
+  class High():
     int skill_modifier
     int skill_modifier
   
-  class wood():
+  class Wood():
     int skill_modifier
     int skill_modifier
   
-  class dark():
+  class Dark():
     int skill_modifier
     int skill_modifier
 
@@ -28,6 +28,6 @@ class Halfling():
   int skill_modifier
   int skill_modifier
 
-class half-elf():
+class Half-elf():
   int skill_modifier
   int skill_modifier
