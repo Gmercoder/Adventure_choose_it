@@ -1,7 +1,7 @@
 import random as rand
 import time as ti
 
-class character():
+class Character():
   int strength
   int dex
   int constitiution
@@ -22,48 +22,48 @@ class character():
   list weaknesses
   list inventory
 
-class player_class():
+class Player_class():
   class barbarian():
     str skills
     str classabilities
   
-  class ranger():
+  class Ranger():
     str skills
     str classabilities
   
-  class fighter():
+  class Fighter():
     str skills
     str classabilities
     
-  class wizard():
+  class Wizard():
     str skills
     str classabilities
   
-  class cleric():
+  class Cleric():
     str skills
     str classabilities
   
-  class paladin():
+  class Paladin():
     str skills
     str classabilities
   
-  class monk():
+  class Monk():
     str skills
     str classabilities
   
-  class rogue():
+  class Rogue():
     str skills
     str classabilities
   
-  class bard():
+  class Bard():
     str skills
     str classabilities
   
-  class druid():
+  class Druid():
     str skills
     str classabilities
   
-  class warlock():
+  class Warlock():
     str skills
     str classabilities
 
