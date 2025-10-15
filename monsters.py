@@ -1,65 +1,64 @@
-class monster():
-  class chimera():
+class Chimera():
 
-  class skeleton():
+class Skeleton():
 
-  class zombie():
+class Zombie():
 
-  class dragon():
+class Dragon():
 
-  class hydra():
+class Hydra():
 
-  class slime():
+class Slime():
 
-  class ghost():
+class Ghost():
 
-  class ghoul():
+class Ghoul():
 
-  class basilisk():
+class Basilisk():
 
-  class cyclops():
+class Cyclops():
 
-  class gorgon():
+class Gorgon():
 
-  class griffin():
+class Griffin():
 
-  class minotaur():
+class Minotaur():
 
-  class sphinx():
+class Sphinx():
 
-  class banshee():
+class Banshee():
 
-  class bonless():
+class Bonless():
 
-  class wraith():
+class Wraith():
 
-  class lich():
+class Lich():
 
-  class mummy():
+class Mummy():
 
-  class necromanser():
+class Necromanser():
 
-  class vampire():
+class Vampire():
 
-  wyvern
+class Wyvern():
 
-  Oblex
+class Oblex():
 
-  beholder
+class Beholder():
 
-  manticore
+class Manticore():
 
-  cockatrice
+class Cockatrice():
 
-  werewolf
+class Werewolf():
 
-  giant
+class Giant():
 
-  goblin
+class Goblin():
 
-  orc
+class Orc():
 
-  troll
+class Troll():
 
-  ogre
+class Ogre():
 
