@@ -484,13 +484,6 @@ def play_game(mononster, regular, demi, quests, classes):
                                 else:
                                     print("Not a valid answer!")
                                 print("The slimes all see you, turning to you, you see many different colored slimes, ranging from red to green with colors in between.")
-                                slime = input("Do you want to know about the different slimes? (Y/N)")
-                                if slime == "Y":
-                                    print("")
-                                elif slime == "N":
-                                    print("")
-                                else:
-                                    print("Not a valid answer!")
 
                                 
                             elif chooseee == "2":
