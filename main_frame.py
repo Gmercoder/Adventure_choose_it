@@ -42,7 +42,7 @@ class Character:
 
 class Player_class:
 
-    def __init__(class_requirements:list, class_abilities:list, skills:list, bonusses:list):
+    def __init__(self, class_requirements:list, class_abilities:list, skills:list, bonusses:list):
         self.class_requirements = class_requirements
         self.class_abilities = class_abilities
         self.skills = skills
@@ -55,8 +55,20 @@ class Player_class:
     def crit_bonus(Character):
         if "crit_bonus" in Character.abilities:
             if hit_roll => 19:
-        
-  class Misc_item():
+                hit_type = crit
+
+class Species:
+    def __init__(self, streng:int, dex:int, con:int, intel:int, wis:int, res:int, abilities:list):
+        self.skill_bonus_streng = streng
+        self.skill_bonus_dex = dex
+        self.skill_bonus_con = con
+        self.skill_bonus_intel = intel
+        self.skill_bonus_wis = wis
+        self.skill_bonus_res = res
+        self.species_abilities = abilities
+
+
+class Misc_item():
     def __init__(self, name:str, value:int, weight:int) -> None:
         self.name = name
         self.value = value
