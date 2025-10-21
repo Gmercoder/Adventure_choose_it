@@ -10,7 +10,7 @@ Dragon = charz(strength = 18, dexterity = 19, health = 235, armor = Natural, wea
 
 Hydra = charz(strength = 17, dexterity = 18, con = 15, health = 215, armor = Natural, weapons = [talons, tail, bite], num_attacks = 3, playable = false, xp = 1100, weakness = [magical, fire, cold, weapons], abilities = [regeneration, fire breathing])
 
-green_slime = charz(strength = 10, dexterity = 9, con = 10, health = 15, armor = Natural, weapons = [pseudopod], num_attacks = 1, playable = false, xp = 15, weakness = [magical, lightning, cold], abilities = [dissolve_weapons]
+Green_slime = charz(strength = 10, dexterity = 9, con = 10, health = 15, armor = Natural, weapons = [pseudopod], num_attacks = 1, playable = false, xp = 15, weakness = [magical, lightning, cold], abilities = [dissolve_weapons])
 
 class Ghost():
 
