@@ -2,15 +2,13 @@ from main_frame import Charcter as charz
 
 Chimera = charz(strength = 17, dexterity = 17, health = 200, armor = Natural, weapons = [claws, bite, tail], num_attacks = 4, playable = false, xp = 1000, weakness = [magical, cold])
 
-class Chimera():
+Skeleton = charz(strength = 10, dexterity = 9, health = 30, armor = rusted, weapons = [swords, spears, dagger, shields], num_attacks = 2, playable = false, xp = 10, weakness = [weapons, magic])
 
-class Skeleton():
+Zombie = charz(strength = 9, dexterity = 8, health = 20, armor = none, weapons = [teeth, hands], num_attacks = 2, playable = false, xp = 10, weakness = [weapons, magic]
 
-class Zombie():
+Dragon = charz(strength = 18, dexterity = 19, health = 235, armor = Natural, weapons = [talons, tail, bite], num_attacks = 4, playable = false, xp = 1000, weakness = [magical, cold, underbelly], abilties = [fire breathing]
 
-class Dragon():
-
-class Hydra():
+Hydra = charz(strength = 17, dexterity = 18, health = 215, armor = Natural, weapons = [talons, tail, bite], num_attacks = 3, playable = false, xp = 1100, weakness = [magical, fire, cold, weapons], abilities = [regeneration, fire breathing]
 
 class Slime():
 
