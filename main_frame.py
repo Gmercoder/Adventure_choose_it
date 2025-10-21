@@ -35,8 +35,10 @@ class Character:
         self.inventory = inventory
 
         def leveler(xp, level):
-            xp=3.7825level4−134.59level3+2572.6level2−10699level+10703
-
+            xp_required=3.7825level4−134.59level3+2572.6level2−10699level+10703
+            while xp => xp_required: 
+                self.level = self.level += 1
+                xp_required=3.7825level4−134.59level3+2572.6level2−10699level+10703
 
 class Player_class:
 
