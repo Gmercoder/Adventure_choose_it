@@ -40,12 +40,20 @@ class Character:
 
 class Player_class:
 
-    def __innit__(class_requirements:list, class_abilities:list, skills:list, bonusses:list):
+    def __init__(class_requirements:list, class_abilities:list, skills:list, bonusses:list):
         self.class_requirements = class_requirements
         self.class_abilities = class_abilities
         self.skills = skills
         self.bonusses = bonusses
 
+    def skill_bonus(bonus_1:str, bonus_2:str Character):
+        Character.bonus_1 = Character.bonus_1 += 1
+        Character.bonus_2 = Character.bonus_2 += 1
+
+    def crit_bonus(Character):
+        if "crit_bonus" in Character.abilities:
+            if hit_roll => 19:
+        
   class barbarian():
     str skills
     str classabilities
