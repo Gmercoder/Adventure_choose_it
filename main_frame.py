@@ -10,7 +10,7 @@ class Character:
     >>> moe = Character(health=10, armor=2, weapons=[], num_attack=1, playable=True)
     """
     def __init__(self, strength:int, dexterity:int, health:int, armor:Armor, weapons:list[Weapon], num_attack:int, playable: bool, con:int, 
-                 intel:int, wis:int, res:int, san:int, mon:int, xp:int, lvl:int, clas:str, weaknesses:list, inventory:list) -> None:
+                 intel:int, wis:int, res:int, san:int, mon:int, xp:int, lvl:int, clas:str, weaknesses:list, inventory:list, abilities:list) -> None:
         self.strength = strength
         self.dexterity = dexterity
         self.health = health
@@ -33,6 +33,7 @@ class Character:
 
         self.weaknesses = weaknesses
         self.inventory = inventory
+        self.abilities = abilities
 
         def leveler(xp, level):
             xp_required=3.7825level4−134.59level3+2572.6level2−10699level+10703
