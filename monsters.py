@@ -8,7 +8,7 @@ Zombie = charz(strength = 9, dexterity = 8, health = 20, armor = none, weapons =
 
 Dragon = charz(strength = 18, dexterity = 19, health = 235, armor = Natural, weapons = [talons, tail, bite], num_attacks = 4, playable = false, xp = 1000, weakness = [magical, cold, underbelly], abilties = [fire breathing]
 
-Hydra = charz(strength = 17, dexterity = 18, health = 215, armor = Natural, weapons = [talons, tail, bite], num_attacks = 3, playable = false, xp = 1100, weakness = [magical, fire, cold, weapons], abilities = [regeneration, fire breathing]
+Hydra = charz(strength = 17, dexterity = 18, con = 15, health = 215, armor = Natural, weapons = [talons, tail, bite], num_attacks = 3, playable = false, xp = 1100, weakness = [magical, fire, cold, weapons], abilities = [regeneration, fire breathing]
 
 class Slime():
 
