@@ -1,3 +1,7 @@
+from main_frame import Charcter as charz
+
+Chimera = charz(strength = 17, dexterity = 17, health = 200, armor = Natural, weapons = [claws, bite, tail], num_attacks = 4, playable = false, xp = 1000, weakness = [magical, cold])
+
 class Chimera():
 
 class Skeleton():
