@@ -38,7 +38,12 @@ class Character:
             xp=3.7825level4−134.59level3+2572.6level2−10699level+10703
 
 
-class Player_class():
+class Player_class(class_requirements:list, class_abilities:list, skills:list, bonusses:list):
+        self.class_requirements = class_requirements
+        self.class_abilities = class_abilities
+        self.skills = skills
+        self.bonusses = bonusses
+
   class barbarian():
     str skills
     str classabilities
