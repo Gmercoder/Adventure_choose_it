@@ -34,6 +34,9 @@ class Character:
         self.weaknesses = weaknesses
         self.inventory = inventory
 
+        def leveler(xp, level):
+            xp=3.7825level4−134.59level3+2572.6level2−10699level+10703
+
 
 class Player_class():
   class barbarian():
