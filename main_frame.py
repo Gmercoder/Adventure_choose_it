@@ -70,23 +70,20 @@ class Species:
 
 
 class Misc_item():
-    def __init__(self, name:str, value:int, weight:int) -> None:
-        self.name = name
+    def __init__(self, value:int, weight:int) -> None:
         self.value = value
         self.weight = weight
 
 
 class Armor:
-    def __init__(self, name:str, armor_class:int, value:int, weight:int) -> None:
-        self.name = name
+    def __init__(self, armor_class:int, value:int, weight:int) -> None:
         self.armor_class = armor_class
         self.value = value
         self.weight = weight
 
 
 class Weapon:
-    def __init__(self, name:str, damage_dice:Dice, damage_attribute:str, value:int, weight:int) -> None:
-        self.name = name
+    def __init__(self, damage_dice:Dice, damage_attribute:str, value:int, weight:int) -> None:
         self.damage_dice = damage_dice
         self.damage_attribute = damage_attribute
         self.value = value
@@ -96,8 +93,7 @@ class Weapon:
         return self.damage_dice.roll() + character.__getattribute__(self.damage_attribute) % 4
 
 class Magic_Armor:
-    def __init__(self, name:str, armor_class:int, value:int, weight:int, abilities:list, resistance:list) -> None:
-        self.name = name
+    def __init__(self, armor_class:int, value:int, weight:int, abilities:list, resistance:list) -> None:
         self.armor_class = armor_class
         self.value = value
         self.weight = weight
@@ -111,8 +107,7 @@ class Magic_Armor:
 
 
 class Magic_Weapon:
-    def __init__(self, name:str, damage_dice:Dice, damage_attribute:str, value:int, weight:int, dt:str) -> None:
-        self.name = name
+    def __init__(self, damage_dice:Dice, damage_attribute:str, value:int, weight:int, dt:str) -> None:
         self.damage_dice = damage_dice
         self.damage_attribute = damage_attribute
         self.value = value
@@ -122,4 +117,9 @@ class Magic_Weapon:
     def damage(self, character)->int:
         return self.damage_dice.roll() + character.__getattribute__(self.damage_attribute) % 4
 
-class quest():
+class Quest():
+    def ___init___(self, requirements:list, reward:int, level_requisite:int):
+        self.requirments = requirements
+        self.reweard = reward
+        self.level_prerequiste = level_requisite
+        
