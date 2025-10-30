@@ -5,7 +5,7 @@ class Dice:
         self.d4, self.d6, self.d10, self.d20, self.mod = d4, d6, d10, d20, mod
 
     def roll(self):
-        #cumm_sum stands for cummulative sum
+        #cumm_sum stands for cumulative sum
         cumm_sum = 0
         for _ in range(self.d4):
             cumm_sum += randint(1,4)
