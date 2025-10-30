@@ -12,6 +12,12 @@ Hydra = charz(strength = 17, dexterity = 18, con = 15, health = 215, armor = Nat
 
 Green_slime = charz(strength = 10, dexterity = 9, con = 10, health = 15, armor = Natural, weapons = [pseudopod], num_attacks = 1, playable = false, xp = 15, weakness = [magical, lightning, cold], abilities = [dissolve_weapons])
 
+Red_slime = charz(strength = 15, dexterity = 9, con = 10, health = 25, armor = Natural, weapons = [pseudopod], num_attacks = 1, playable = false, xp = 15, weakness = [magical, lightning, cold], abilities = [strength])
+
+Blue_slime = charz(strength = 10, dexterity = 9, con = 10, health = 15, armor = Natural, weapons = [pseudopod], num_attacks = 1, playable = false, xp = 15, weakness = [magical, lightning, cold], abilities = [dissolve]) #It can dissolve anything, basically a gelatinous cube
+
+Yellow_slime = charz(strength = 10, dexterity = 9, con = 10, health = 15, armor = Natural, weapons = [pseudopod], num_attacks = 1, playable = false, xp = 15, weakness = [magical, lightning, cold], abilities = [burn]) #Burn == via skin contact, basically the toxin a box jellyfish has
+
 Ghost = charz(strength = 10, dexterity = 9, con = 10, health = 50, armor = Ethereal, weapons = [spirit_dagger, magic_dagger], num_attacks = 2, playable = false, xp = 20, weakness = [magic_weapons, holy_water], abilities = [intangibility])
 
 class Ghoul():
