@@ -24,47 +24,39 @@ Ghoul = charz(strength = 11, dexterity = 10, health = 75, armor = Natural, weapo
 
 Basilisk = charz(strength = 15, dexterity = 14, con = 16, health = 250, armor = Natural, weapons = [bite, tail, venom], num_attacks = 3, playable = false, xp = 1250, weakness = [bows, magical_weapons, itself], abilities = [petrafication])
 
-class Cyclops():
+Cyclops = charz()
 
-class Gorgon():
+Gorgon = charz()
 
-class Griffin():
+Griffin = charz()
 
-class Minotaur():
+Minotaur = charz()
 
-class Sphinx():
+Sphinx = charz()
 
-class Banshee():
+Banshee = charz()
 
-class Bonless():
+Wraith = charz()
 
-class Wraith():
+Necromanser = charz()
 
-class Lich():
+Vampire = charz()
 
-class Mummy():
+Wyvern = charz()
 
-class Necromanser():
+Beholder = charz()
 
-class Vampire():
+Manticore = charz()
 
-class Wyvern():
+Cockatrice = charz()
 
-class Oblex():
+Werewolf = charz()
 
-class Beholder():
+Giant = charz()
 
-class Manticore():
+Goblin = charz()
 
-class Cockatrice():
-
-class Werewolf():
-
-class Giant():
-
-class Goblin():
-
-class Orc():
+Orc = charz()
 
 class Troll():
 
