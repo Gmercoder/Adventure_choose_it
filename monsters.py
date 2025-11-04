@@ -2,7 +2,7 @@ from main_frame import Charcter as charz
 
 Chimera = charz(strength = 17, dexterity = 17, health = 200, armor = Natural, weapons = [claws, bite, tail], num_attacks = 4, playable = false, xp = 1000, weakness = [magical, cold])
 
-Skeleton = charz(strength = 10, dexterity = 9, health = 30, armor = rusted, weapons = [swords, spears, dagger, shields], num_attacks = 2, playable = false, xp = 10, weakness = [weapons, magic])
+Skeleton = charz(strength = 10, dexterity = 9, health = 30, armor = Rusted, weapons = [swords, spears, dagger, shields], num_attacks = 2, playable = false, xp = 10, weakness = [weapons, magic])
 
 Zombie = charz(strength = 9, dexterity = 8, health = 20, armor = none, weapons = [teeth, hands], num_attacks = 2, playable = false, xp = 10, weakness = [weapons, magic])
 
@@ -20,9 +20,9 @@ Yellow_slime = charz(strength = 10, dexterity = 9, con = 10, health = 15, armor 
 
 Ghost = charz(strength = 10, dexterity = 9, con = 10, health = 50, armor = Ethereal, weapons = [spirit_dagger, magic_dagger], num_attacks = 2, playable = false, xp = 20, weakness = [magic_weapons, holy_water], abilities = [intangibility])
 
-class Ghoul():
+Ghoul = charz(strength = 11, dexterity = 10, health = 75, armor = Natural, weapons = [sword, hands], num_attacks = 2, playable = false, xp = 35, weakness = [magical, melee])
 
-class Basilisk():
+Basilisk = charz(strength = 15, dexterity = 14, con = 16, health = 250, armor = Natural, weapons = [bite, tail, venom], num_attacks = 3, playable = false, xp = 1250, weakness = [bows, magical_weapons, itself], abilities = [petrafication])
 
 class Cyclops():
 
