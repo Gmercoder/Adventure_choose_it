@@ -58,7 +58,5 @@ Goblin = charz()
 
 Orc = charz()
 
-class Troll():
-
-class Ogre():
+Troll = charz()
 
